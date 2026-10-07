@@ -1,0 +1,57 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/powerbi-desktop-samples/master/Report%20Theme/PowerBI%20theme%20schema.json",
+  "name": "Olist Commerce Command Center",
+  "dataColors": [
+    "#00C2A8",
+    "#4F8CFF",
+    "#8B5CF6",
+    "#F59E0B",
+    "#22C55E",
+    "#EF4444",
+    "#14B8A6",
+    "#F97316"
+  ],
+  "background": "#0B1220",
+  "foreground": "#E5E7EB",
+  "tableAccent": "#00C2A8",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#111827"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontFamily": "Segoe UI Semibold",
+            "fontSize": 12,
+            "color": {
+              "solid": {
+                "color": "#F9FAFB"
+              }
+            }
+          }
+        ],
+        "labels": [
+          {
+            "fontFamily": "Segoe UI",
+            "fontSize": 10,
+            "color": {
+              "solid": {
+                "color": "#D1D5DB"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
